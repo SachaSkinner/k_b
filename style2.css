@@ -1,9 +1,5 @@
 /* Navbar container */
 
-body {
-    background-image: url("https://media.giphy.com/media/3ohhwNqFMnb7wZgNnq/giphy.gif");
-}
-
 .navbar {
     background-color: rgb(48, 48, 94);
     font-family: Arial;
@@ -12,6 +8,7 @@ body {
     left: 0;
     width: 100%;
     text-align: center;
+    /* padding: 14px 16px; */
 }
 
 
@@ -22,7 +19,6 @@ body {
     font-size: 16px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
 
@@ -38,12 +34,12 @@ body {
 /* Dropdown button */
 
 .dropdown .dropbtn {
-    font-size: 20px;
+    font-size: 22px;
     border: none;
     outline: none;
     color: white;
-    padding: 14px;
-    padding-top: 18px;
+    padding: 18px;
+    /* padding-top: 18px; */
     background-color: inherit;
     font-family: 'Dancing Script', cursive;
     /* Important for vertical align on mobile phones */
@@ -56,8 +52,8 @@ body {
 
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-    background-color: rgb(99, 118, 224);
-    color: black;
+    background-color: rgb(99, 118, 224) !important;
+    color: black !important;
 }
 
 
@@ -67,9 +63,9 @@ body {
     display: none;
     position: absolute;
     background-color: #ffffff;
-    min-width: 140px;
+    min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    /* z-index: 1; */
+    z-index: 1;
 }
 
 
@@ -124,4 +120,10 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin-top: 62px;
+}
+
+#myCarousel {
+    margin-top: 62px;
+    z-index: 40;
 }
