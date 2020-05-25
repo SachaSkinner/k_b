@@ -1,5 +1,9 @@
 /* Navbar container */
 
+body {
+    background-image: url("https://media.giphy.com/media/3ohhwNqFMnb7wZgNnq/giphy.gif");
+}
+
 .navbar {
     background-color: rgb(48, 48, 94);
     font-family: Arial;
@@ -7,7 +11,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -114,4 +117,11 @@
     margin-right: 3px;
     border-radius: 45%;
     /* margin-top: 6px; */
+}
+
+#avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
