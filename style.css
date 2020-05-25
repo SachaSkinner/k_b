@@ -1,0 +1,97 @@
+/* The navigation bar */
+
+.navbar {
+    /* overflow: hidden; */
+    background-color: rgb(130, 31, 160);
+    position: absolute;
+    /* Set the navbar to fixed position */
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Full width */
+    text-align: center;
+}
+
+
+/* Links inside the navbar */
+
+.navbar a {
+    float: left;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#gif {
+    display: inline-block;
+    height: 40x;
+    width: 40px;
+    float: right;
+    padding: 9px 9px;
+    margin-right: 3px;
+    /* margin-top: 6px; */
+}
+
+#name {
+    background-color: rgb(245, 203, 241);
+    color: rgb(54, 13, 66);
+    display: inline-block;
+    padding: 13px 9px;
+    font-size: 20px;
+    margin-left: 3px;
+    margin-top: 6px;
+    border-radius: 20px;
+    float: left;
+}
+
+
+/* Change background on mouse-over */
+
+.navbar a:hover {
+    background: rgb(245, 203, 241);
+    color: rgb(54, 13, 66);
+}
+
+.navbar #name:hover {
+    background-color: rgb(231, 228, 52);
+    color: rgb(54, 13, 66);
+}
+
+
+/* Main content */
+
+.main {
+    margin-top: 100px;
+    /* Add a top margin to avoid content overlay */
+}
+
+.text {
+    font-size: 30px;
+    margin: 20px;
+}
+
+#portfolio,
+#contact,
+#home {
+    padding-bottom: 350px;
+    border: 3px black solid;
+    text-align: center;
+}
+
+body {
+    background: url("./back1.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+#footer {
+    /* justify-content: flex-end; */
+    /* padding: 20px; */
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
