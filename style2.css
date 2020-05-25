@@ -7,6 +7,8 @@
     top: 0;
     left: 0;
     width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 
@@ -33,13 +35,14 @@
 /* Dropdown button */
 
 .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 14px;
+    padding-top: 18px;
     background-color: inherit;
-    font-family: inherit;
+    font-family: 'Dancing Script', cursive;
     /* Important for vertical align on mobile phones */
     margin: 0;
     /* Important for vertical align on mobile phones */
@@ -90,4 +93,25 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+#name {
+    color: rgb(233, 241, 243);
+    display: inline-block;
+    padding: 14px 16px;
+    font-size: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Dancing Script', cursive;
+}
+
+#gif {
+    display: inline-block;
+    height: 40x;
+    width: 40px;
+    float: right;
+    padding: 9px 9px;
+    margin-right: 3px;
+    border-radius: 45%;
+    /* margin-top: 6px; */
 }
