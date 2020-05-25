@@ -1,5 +1,18 @@
 /* Navbar container */
 
+body {
+    /* background-image: url('./_MG_0732-2.jpg'); */
+    /* background-repeat: no-repeat;
+    background-size: auto;
+    width: auto; */
+    background: url('./_MG_01.jpg') no-repeat center center fixed;
+    /* background: url('./_MG_0732-2.jpg') no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .navbar1 {
     background-color: rgb(48, 48, 94);
     font-family: Arial;
@@ -8,6 +21,7 @@
     left: 0;
     width: 100%;
     text-align: center;
+    opacity: 0.8;
     /* padding: 14px 16px; */
 }
 
