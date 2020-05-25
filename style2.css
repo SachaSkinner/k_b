@@ -1,6 +1,6 @@
 /* Navbar container */
 
-.navbar {
+.navbar1 {
     background-color: rgb(48, 48, 94);
     font-family: Arial;
     position: absolute;
@@ -14,7 +14,7 @@
 
 /* Links inside the navbar */
 
-.navbar a {
+.navbar1 a {
     float: left;
     font-size: 16px;
     color: white;
@@ -25,7 +25,7 @@
 
 /* The dropdown container */
 
-.dropdown {
+.dropdown1 {
     float: left;
     overflow: hidden;
 }
@@ -33,12 +33,13 @@
 
 /* Dropdown button */
 
-.dropdown .dropbtn {
+.dropdown1 .dropbtn1 {
     font-size: 22px;
     border: none;
     outline: none;
     color: white;
-    padding: 18px;
+    padding: 15.5px;
+    padding-right: 37px;
     /* padding-top: 18px; */
     background-color: inherit;
     font-family: 'Dancing Script', cursive;
@@ -50,16 +51,16 @@
 
 /* Add a red background color to navbar links on hover */
 
-.navbar a:hover,
-.dropdown:hover .dropbtn {
-    background-color: rgb(99, 118, 224) !important;
-    color: black !important;
+.navbar1 a:hover,
+.dropdown1:hover .dropbtn1 {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(48, 48, 94);
 }
 
 
 /* Dropdown content (hidden by default) */
 
-.dropdown-content {
+.dropdown-content1 {
     display: none;
     position: absolute;
     background-color: #ffffff;
@@ -71,27 +72,30 @@
 
 /* Links inside the dropdown */
 
-.dropdown-content a {
+.dropdown-content1 a {
     float: none;
-    color: black;
-    padding: 12px 16px;
+    color: rgb(255, 255, 255);
+    padding: 14px 12px;
     text-decoration: none;
     display: block;
     text-align: left;
+    background-color: rgb(48, 48, 94);
+    ;
 }
 
 
 /* Add a grey background color to dropdown links on hover */
 
-.dropdown-content a:hover {
-    background-color: #ddd;
+.dropdown-content1 a:hover {
+    background-color: rgb(25, 25, 31);
 }
 
 
 /* Show the dropdown menu on hover */
 
-.dropdown:hover .dropdown-content {
+.dropdown1:hover .dropdown-content1 {
     display: block;
+    z-index: 99999999;
 }
 
 #name {
@@ -125,5 +129,14 @@
 
 #myCarousel {
     margin-top: 62px;
-    z-index: 40;
+    /* z-index: 40;
+    position: relative;
+    /* height: 100%; */
+    /* margin-bottom: 0;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+    right: 0 !important;
+    height: 380px;
+    overflow: hidden; */
 }
