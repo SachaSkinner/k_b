@@ -110,12 +110,13 @@
 
 #gif {
     display: inline-block;
-    height: 40x;
-    width: 40px;
+    height: 50x;
+    width: 60px;
     float: right;
-    padding: 9px 9px;
-    margin-right: 3px;
-    border-radius: 45%;
+    padding: 2;
+    margin: 15px;
+    margin-top: 10px;
+    border-radius: 10px
     /* margin-top: 6px; */
 }
 
