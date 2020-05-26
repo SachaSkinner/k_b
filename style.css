@@ -1,5 +1,5 @@
 body {
-    background: url('./_MG_01.jpg') no-repeat center center fixed;
+    background: url('avatar.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -120,5 +120,6 @@ body {
     float: right;
     padding: 2;
     margin: 15px;
+    margin-left: 0;
     border-radius: 10px;
 }
