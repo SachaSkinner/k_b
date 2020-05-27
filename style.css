@@ -1,5 +1,5 @@
 body {
-    background: url('avatar.jpg') no-repeat center center fixed;
+    background: url('./avatar-s.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -50,6 +50,7 @@ body {
     font-family: 'Dancing Script', cursive;
     /* Important for vertical align on mobile phones */
     margin: 0;
+    line-height: 38px;
 }
 
 
@@ -110,6 +111,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 6px;
+    /* font-family: 'Dancing Script', cursive; */
     font-family: 'Dancing Script', cursive;
 }
 
