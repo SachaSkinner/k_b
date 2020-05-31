@@ -1,5 +1,170 @@
-#text {
-    margin-top: 20px;
+#about-me-text {
+    /* margin-top: 130px; */
+    clear: both;
+    width: 60%;
+    height: auto;
+    display: inline-block;
     font-size: larger;
     color: pink;
+    margin-left: 5%;
+    text-align: center;
+}
+
+#about-me-picture {
+    display: inline-block;
+    margin-top: 20px;
+    height: auto;
+    width: auto;
+    float: left;
+    height: auto;
+    width: 30%;
+    margin-right: 5%;
+}
+
+#box {
+    margin: 5%;
+    margin-top: 100px;
+}
+
+body {
+    background: url('./moroccan-flower-dark.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar1 {
+    background-color: rgb(48, 48, 94);
+    font-family: Arial;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0.8;
+}
+
+
+/* Links inside the navbar */
+
+.navbar1 a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* The dropdown container */
+
+.dropdown1 {
+    float: left;
+    overflow: hidden;
+}
+
+
+/* Dropdown button */
+
+.dropdown1 .dropbtn1 {
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15.5px;
+    padding-right: 37px;
+    background-color: inherit;
+    font-family: 'Dancing Script', cursive;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    line-height: 38px;
+}
+
+
+/* Add a background color to navbar links on hover */
+
+.navbar1 a:hover,
+.dropdown1:hover .dropbtn1 {
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(48, 48, 94);
+}
+
+
+/* Dropdown content (hidden by default) */
+
+.dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content1 a {
+    float: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: rgb(48, 48, 94);
+}
+
+
+/* Add a grey background color to dropdown links on hover */
+
+.dropdown-content1 a:hover {
+    background-color: rgb(25, 25, 31);
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown1:hover .dropdown-content1 {
+    display: block;
+    z-index: 99999999;
+}
+
+#name {
+    color: rgb(233, 241, 243);
+    display: inline-block;
+    padding: 14px 16px;
+    font-size: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Dancing Script', cursive;
+}
+
+#logo {
+    height: 50x;
+    width: 60px;
+    float: right;
+    padding: 2;
+    margin: 15px;
+    margin-left: 0;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 411px) {
+    #logo {
+        height: 26x;
+        width: 36px;
+        margin-top: 23px;
+    }
+    #name {
+        padding-left: 6px;
+    }
+}
+
+@media only screen and (max-width: 345px) {
+    #logo {
+        display: none;
+    }
 }
