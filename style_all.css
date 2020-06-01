@@ -48,7 +48,7 @@ body {
 
 /* Links inside the navbar */
 
-.navbar1 a {
+.dropdown-content1 a {
     float: left;
     font-size: 16px;
     color: white;
@@ -84,7 +84,7 @@ body {
 
 /* Add a background color to navbar links on hover */
 
-.navbar1 a:hover,
+.dropdown-content1 a:hover,
 .dropdown1:hover .dropbtn1 {
     background-color: rgb(255, 255, 255) !important;
     color: rgb(48, 48, 94);
