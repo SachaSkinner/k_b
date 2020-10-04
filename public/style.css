@@ -7,6 +7,7 @@ body {
     background-size: cover;
     height: 100%;
     width: 100%;
+    margin: 0;
 }
 
 .navbar1 {
@@ -35,6 +36,7 @@ body {
 /* The dropdown container */
 
 .dropdown1 {
+    /* z-index: 999; */
     float: left;
     overflow: hidden;
 }
@@ -63,6 +65,7 @@ body {
 .dropdown1:hover .dropbtn1 {
     background-color: rgb(255, 255, 255) !important;
     color: rgb(48, 48, 94);
+    /* z-index: 999; */
 }
 
 
@@ -117,7 +120,8 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
-#logo {
+
+/* #logo {
     height: 50x;
     width: 60px;
     float: right;
@@ -125,6 +129,20 @@ body {
     margin: 15px;
     margin-left: 0;
     border-radius: 10px;
+} */
+
+.fa {
+    display: inline;
+}
+
+#logo {
+    float: right;
+    color: white;
+    margin: 15px;
+    margin-right: 47px;
+    margin-top: 25px;
+    width: 20px;
+    height: auto;
 }
 
 @media only screen and (max-width: 411px) {
@@ -142,4 +160,15 @@ body {
     #logo {
         display: none;
     }
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    color: white;
+    padding: 20px;
+    background-color: rgb(48, 48, 94);
+    text-align: center;
+    width: 100%;
+    opacity: 0.8;
 }
